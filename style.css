@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+}
+
+
+h1 {
+  font-weight: normal;
+  font-size: 28px;
+  padding-top: 20px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  font-size: 13px;
+  width: 40px;
+  margin: 10px 8px;
+}
+
+li:hover {
+  opacity: .6;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+main img {
+  width: 100%;
+}
+
+@media (min-width:600px) {
+  .container {
+    max-width: 960px;
+    display: flex;
+    padding: 120px 4%;
+    margin: 0 auto;
+    /* background-color: pink; */
+    align-items: center;
+  }
+
+  ul {
+    display: flex;
+    margin-left: auto;
+    
+  }
+
+  .b {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    max-width: 960px;
+  }
+  .b img {
+    width: calc((100% - 64px) / 3);
+  }
+  .a {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .News-1 {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .text {
+    display: flex;
+  }
+  .abo {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .messa {
+    max-width: 960px;
+    display: flex;
+    margin: 8px auto;
+  }
+  .messa input {
+    width: 85%;
+    margin-left: auto;
+  }
+  .ta {
+    max-width: 960px;
+    display: flex;
+    margin: 0 auto;
+  }
+  .ta textarea {
+    width: 87%;
+    margin-left: auto;
+  }
+  .btn {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+h2 {
+  text-align: center;
+  margin: 100px auto;
+}
+
+
+
+section {
+  margin: 50px 4%;
+}
+
+
+
+.News-1 p {
+  padding: 10px 4%;
+  line-height: 1.5;
+}
+
+input {
+  padding: 10px;
+  /* width: 960px; */
+}
+
+div p {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+
+textarea {
+  padding: auto 4%;
+  /* width: 960px; */
+  padding-bottom: 32px;
+}
+
+
+button {
+  border-radius: 1px;
+  width: 20%;
+  height: 50px;
+  margin: 20px auto;
+  background-color: pink;
+  background: black;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+small {
+  color: white;
+  font-size: 8px;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  margin: 0;
+  text-align: center;
+}
